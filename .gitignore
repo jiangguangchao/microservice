@@ -1,0 +1,5 @@
+# Project exclude paths
+/microservice-api/target/
+/microservice-consumer-dept-9001/target/
+/microservice-provider-dept-8001/target/
+/target/
