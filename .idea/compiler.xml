@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservice-eureka-7001" />
         <module name="microservice-provider-dept-8001" />
         <module name="microservice-consumer-dept-9001" />
         <module name="microservice-api" />
