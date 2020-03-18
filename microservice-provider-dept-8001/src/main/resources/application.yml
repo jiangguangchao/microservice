@@ -2,6 +2,8 @@ server:
   port: 8001
 
 spring:
+  application:
+    name: provider_dept_8001
   datasource:
     url: jdbc:mysql://39.100.110.116:3306/cloudDB01?useUnicode=true&characterEncoding=utf-8
     driverClassName: com.mysql.jdbc.Driver
@@ -13,4 +15,10 @@ mybatis:
   mapper-locations: classpath:/mybatis/mapper/**/*.xml
 
 
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.31.101:7001/eureka/
+      #defaultZone: http://192.168.31.101:7001/myeu/
+      #注意这里的defaultZone 不能写成default-zone，后面的eureka不能换成，其他的
+      #字符串，这个eureka字符串是定死的。
