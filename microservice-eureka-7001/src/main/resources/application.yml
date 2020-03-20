@@ -8,7 +8,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:7001/eureka/,http://localhost:7002/eureka/
       #defaultZone: http://${eureka.instance.hostname}:${server.port}/myeu/
       #注意这里的defaultZone 不能写成default-zone，后面的eureka不能换成，其他的
       #字符串，这个eureka字符串是定死的。

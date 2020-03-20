@@ -5,7 +5,7 @@
 	<property name="log_pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %c.%M >>>>>>> %msg%n"></property>
 	
 	<!-- 日志输出文件位置 -->
-	<property name="log_fileDir" value="F:/log/idea_project/microservice-provider-dept-8001/log/"></property>
+	<property name="log_fileDir" value="F:/log/idea_project/microservice/log/"></property>
 	
 	<!-- 日志文件最大数量 ，可以设置按天或者按月生成新的日志文件,如果按天，表示最多保留180天的日志文件-->
 	<property name="log_maxHistory" value="180"></property>
@@ -39,7 +39,7 @@
 	</appender>
 	
 	<!-- 日志级别    TRACE, DEBUG, INFO, WARN, ERROR, ALL和OFF， -->
-	<root level="info">
+	<root levle="info">
 		<appender-ref ref="console"></appender-ref>
 		<appender-ref ref="file"></appender-ref>
 	</root>

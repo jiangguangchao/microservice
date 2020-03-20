@@ -16,7 +16,8 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class DeptConsumerCtrl {
 
-    private static final String HTTP_PREFix="http://localhost:8001/";
+    //private static final String HTTP_PREFix="http://localhost:8001/";
+    private static final String HTTP_PREFix="http://provider-dept/";
 
     @Autowired
     private RestTemplate restTemplate;

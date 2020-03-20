@@ -13,6 +13,9 @@
         <module>microservice-provider-dept-8001</module>
         <module>microservice-consumer-dept-9001</module>
         <module>microservice-eureka-7001</module>
+        <module>microservice-provider-dept-8003</module>
+        <module>microservice-provider-dept-8002</module>
+        <module>microservice-eureka-7002</module>
     </modules>
 
     <properties>
@@ -75,7 +78,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>microservicecloud</finalName>
+        <finalName>${artifactId}-${version}</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

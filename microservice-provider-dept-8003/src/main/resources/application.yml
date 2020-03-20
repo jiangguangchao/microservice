@@ -1,11 +1,11 @@
 server:
-  port: 8001
+  port: 8003
 
 spring:
   application:
-    name: provider-dept #该属性值不能有下划线，比如写成provider_dept，访问时会报错。
+    name: provider-dept
   datasource:
-    url: jdbc:mysql://39.100.110.116:3306/cloudDB01?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://39.100.110.116:3306/cloudDB03?useUnicode=true&characterEncoding=utf-8
     driverClassName: com.mysql.jdbc.Driver
     username: root
     password: 123456
