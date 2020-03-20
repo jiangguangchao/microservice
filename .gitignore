@@ -2,4 +2,8 @@
 /microservice-api/target/
 /microservice-consumer-dept-9001/target/
 /microservice-provider-dept-8001/target/
+/microservice-provider-dept-8002/target/
+/microservice-provider-dept-8003/target/
+/microservice-eureka-7001/target/
+/microservice-eureka-7002/target/
 /target/
